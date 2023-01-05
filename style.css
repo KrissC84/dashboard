@@ -8,7 +8,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 5fr;
-  padding-bottom: 0.5rem;
+  
 }
 
 .sidebar {
@@ -271,7 +271,8 @@ body {
   background-color: #38424f98;
   grid-row: 1 / span 1;
   border-bottom: 1px solid black;
-  border-radius: 5%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
 
 .tilesCont {
